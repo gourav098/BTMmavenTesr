@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="sBrowser" value="chrome"/>
+    <classes>
+      <class name="testScript.Test2">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testSearchSelenium"/>
+        </methods>
+      </class> <!-- testScript.Test2 -->
+      <class name="testScript.Test3">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testSearchSelenium"/>
+        </methods>
+      </class> <!-- testScript.Test3 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="sBrowser" value="firefox"/>
+    <classes>
+      <class name="testScript.Test2">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testSearchSelenium"/>
+        </methods>
+      </class> <!-- testScript.Test2 -->
+      <class name="testScript.Test3">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testSearchSelenium"/>
+        </methods>
+      </class> <!-- testScript.Test3 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

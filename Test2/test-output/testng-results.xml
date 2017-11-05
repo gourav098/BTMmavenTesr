@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28559" started-at="2017-11-05T09:31:28Z" finished-at="2017-11-05T09:31:57Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="19731" started-at="2017-11-05T09:31:28Z" finished-at="2017-11-05T09:31:48Z">
+      <class name="testScript.Test2">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScript.Test2@e45f292]" name="launchBrowser" is-config="true" duration-ms="7863" started-at="2017-11-05T15:01:28Z" finished-at="2017-11-05T15:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearchSelenium()[pri:0, instance:testScript.Test2@e45f292]" name="testSearchSelenium" duration-ms="3540" started-at="2017-11-05T15:01:36Z" finished-at="2017-11-05T15:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSelenium -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test2@e45f292]" name="closeBrowser" is-config="true" duration-ms="1216" started-at="2017-11-05T15:01:39Z" finished-at="2017-11-05T15:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test2 -->
+      <class name="testScript.Test3">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScript.Test3@5f2108b5]" name="launchBrowser" is-config="true" duration-ms="5507" started-at="2017-11-05T15:01:41Z" finished-at="2017-11-05T15:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearchSelenium()[pri:0, instance:testScript.Test3@5f2108b5]" name="testSearchSelenium" duration-ms="801" started-at="2017-11-05T15:01:46Z" finished-at="2017-11-05T15:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSelenium -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test3@5f2108b5]" name="closeBrowser" is-config="true" duration-ms="791" started-at="2017-11-05T15:01:47Z" finished-at="2017-11-05T15:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test3 -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="28559" started-at="2017-11-05T09:31:28Z" finished-at="2017-11-05T09:31:57Z">
+      <class name="testScript.Test2">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScript.Test2@77cd7a0]" name="launchBrowser" is-config="true" duration-ms="10768" started-at="2017-11-05T15:01:28Z" finished-at="2017-11-05T15:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearchSelenium()[pri:0, instance:testScript.Test2@77cd7a0]" name="testSearchSelenium" duration-ms="1886" started-at="2017-11-05T15:01:39Z" finished-at="2017-11-05T15:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSelenium -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test2@77cd7a0]" name="closeBrowser" is-config="true" duration-ms="1350" started-at="2017-11-05T15:01:41Z" finished-at="2017-11-05T15:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test2 -->
+      <class name="testScript.Test3">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScript.Test3@204f30ec]" name="launchBrowser" is-config="true" duration-ms="7860" started-at="2017-11-05T15:01:42Z" finished-at="2017-11-05T15:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearchSelenium()[pri:0, instance:testScript.Test3@204f30ec]" name="testSearchSelenium" duration-ms="5289" started-at="2017-11-05T15:01:50Z" finished-at="2017-11-05T15:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSelenium -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test3@204f30ec]" name="closeBrowser" is-config="true" duration-ms="1396" started-at="2017-11-05T15:01:55Z" finished-at="2017-11-05T15:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test3 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
